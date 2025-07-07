@@ -20,7 +20,18 @@ An intelligent task management system that uses Gemini AI to enhance task creati
 
 ## Getting Started
 
-### Backend Setup
+## AI Configuration
+
+Edit ai_engine.py:
+genai.configure(api_key="YOUR_API_KEY")
+
+## UI SAMPLES
+
+sCREEN SHOTS HERE: https://docs.google.com/document/d/1nMjJ_jLlEBXH-kogNO7J8cbselUswHvaCTBLLwyw8LI/edit?usp=sharing
+
+
+### Backend Setup!
+
 
 ```bash
 cd backend
@@ -28,23 +39,8 @@ python -m venv venv
 source venv/bin/activate  # Use 'venv\\Scripts\\activate' on Windows
 pip install -r requirements.txt
 python manage.py migrate
-python manage.py runserver
-
-**### Frontend Setup**
-
-```bash
-Copy
-Edit
-cd frontend
-npm install
-npm run dev
-The app will run at: http://localhost:3000
+python manage.py runserver```
 
 
-**AI Configuration**
-import google.generativeai as genai
 
-genai.configure(api_key="YOUR_API_KEY")
-
-UI SAMPLES
 
