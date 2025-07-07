@@ -27,7 +27,7 @@ genai.configure(api_key="YOUR_API_KEY")
 
 ## UI SAMPLES
 
-sCREEN SHOTS HERE: https://docs.google.com/document/d/1nMjJ_jLlEBXH-kogNO7J8cbselUswHvaCTBLLwyw8LI/edit?usp=sharing
+SCREEN SHOTS HERE: https://docs.google.com/document/d/1nMjJ_jLlEBXH-kogNO7J8cbselUswHvaCTBLLwyw8LI/edit?usp=sharing
 
 
 ### Backend Setup!
