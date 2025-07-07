@@ -1,0 +1,16 @@
+# Node (client)
+client/node_modules/
+client/.next/
+client/.env.local
+client/.env
+
+# Python/Django (server)
+server/__pycache__/
+server/*.pyc
+server/db.sqlite3
+server/.env
+
+# General
+.env
+*.log
+*.DS_Store
